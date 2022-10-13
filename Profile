@@ -1,0 +1,16 @@
+//Миньков 22исп2-1 базовый уровень  15 вариант 2.3 Операторы выбора вариантов 
+Console.WriteLine("Введите координаты точек А");
+Console.WriteLine("Введите x :");
+double x = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите y :");
+double y = double.Parse(Console.ReadLine());
+if (x > 0 && y < 0)
+{  
+    Console.WriteLine("Точка A лежит в четвертой четверти"); 
+}
+
+
+else 
+{
+    Console.WriteLine("Точка A  НЕ лежит в четвертой четверти");
+}
