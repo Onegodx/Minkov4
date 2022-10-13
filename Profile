@@ -1,16 +1,17 @@
-//Миньков 22исп2-1 базовый уровень  15 вариант 2.3 Операторы выбора вариантов 
-Console.WriteLine("Введите координаты точек А");
-Console.WriteLine("Введите x :");
-double x = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите y :");
-double y = double.Parse(Console.ReadLine());
-if (x > 0 && y < 0)
+//Миньков 22исп2-1 средний уровень 15 вариант 2.1 логические выражение
+Console.WriteLine("Введите оценку по физике");
+double physic = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите оценку по информатике");
+double info = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите оценку по математике");
+double math = double.Parse(Console.ReadLine());
+if (math >= 4 && info >= 4 && physic>=4)
 {  
-    Console.WriteLine("Точка A лежит в четвертой четверти"); 
+    Console.WriteLine("Отличные оценки ,вы получите степендию"); 
 }
 
 
 else 
 {
-    Console.WriteLine("Точка A  НЕ лежит в четвертой четверти");
+    Console.WriteLine("Извините у вас слишком плохие оценки,вы не получите степендию");
 }
