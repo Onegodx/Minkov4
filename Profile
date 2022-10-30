@@ -1,3 +1,4 @@
+//Миньков Вариант 15
 double[] arr = new double[14];
 Random n = new Random();
 
